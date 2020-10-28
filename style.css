@@ -1,0 +1,95 @@
+@import url(//db.onlinewebfonts.com/c/63467b9cbd4a4d7eafb5e64946ecaa18?family=Maison+Neue);
+
+.fontHeader {
+  font-family: Maison Neue Mono;
+  margin-top: 20px;
+  height: auto;
+  color: #cacccf;
+}
+
+.navHeader {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.navHeaderTitle {
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  color: #070655;
+  font-weight: 700;
+  padding: 1rem;
+  font-size: xx-large;
+}
+
+.headerBar {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.headerBarTitle {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    appearance: none;
+    align-items: center;
+    
+    justify-content: center;
+    transition: all 250ms ease 0s;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: normal;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    height: auto;
+    min-width: 2.5rem;
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(226, 232, 240); 
+}
+
+.bodyFont {
+  font-family: Maison Neue;
+  text-align: justify;
+}
+
+.bodyParagraphFont {
+  background-image: url(image.svg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+.bodyContent {
+  width: 100%;
+  height: 650px;
+  min-height: 850px;
+  padding: 60px 170px;
+}
+
+.footerFont {
+  font-family: Maison Neue Mono;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #25282b;
+  color: #e8e8e8;
+  text-align: center;
+}
