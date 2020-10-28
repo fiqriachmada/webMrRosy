@@ -2,9 +2,8 @@
 
 .fontHeader {
   font-family: Maison Neue Mono;
-  margin-top: 20px;
   height: auto;
-  color: #cacccf;
+  border-radius: 5px;
 }
 
 .navHeader {
@@ -28,39 +27,36 @@
 }
 
 .headerBar {
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: row;
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-    padding: 1rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  padding: 1rem;
 }
 
 .headerBarTitle {
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-flex;
-    appearance: none;
-    align-items: center;
-    
-    justify-content: center;
-    transition: all 250ms ease 0s;
-    user-select: none;
-    position: relative;
-    white-space: nowrap;
-    vertical-align: middle;
-    outline: none;
-    width: auto;
-    line-height: normal;
-    border-radius: 0.25rem;
-    font-weight: 600;
-    height: auto;
-    min-width: 2.5rem;
-    font-size: 18px;
-    padding: 10px;
-    color: rgb(226, 232, 240); 
+  cursor: pointer;
+  text-decoration: none;
+  appearance: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms ease 0s;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  width: auto;
+  line-height: normal;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  height: auto;
+  min-width: 2.5rem;
+  padding: 10px;
+  color: #070655;
 }
 
 .bodyFont {
