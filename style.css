@@ -59,24 +59,43 @@
   color: #070655;
 }
 
-.bodyFont {
+.fontBody {
   font-family: Maison Neue;
   text-align: justify;
 }
 
-.bodyParagraphFont {
-  background-image: url(image.svg);
-  background-position: center;
-  background-size: auto;
-  background-repeat: no-repeat;
-  width: auto;
+.borderContent {
+    /* background-image: url(image.svg);
+  background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: column-reverse;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.bodyContent {
-  width: 100%;
-  height: 650px;
-  min-height: 850px;
-  padding: 60px 170px;
+.innerBorder {
+    
+  display: flex;
+  flex-direction: column;
+  line-height: 1.625;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.h2Content {
+  line-height: 1.25;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.innerBorder2 {
+  
+  font-size: 20px;
 }
 
 .footerFont {
