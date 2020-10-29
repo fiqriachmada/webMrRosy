@@ -54,7 +54,7 @@
 }
 
 .fontBody {
-  font-family: MaisonNeue-Book;
+  font-family: MaisonNeue-Book, sans-serif;
   text-align: justify;
 }
 
