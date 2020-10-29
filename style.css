@@ -55,6 +55,7 @@
 
 .fontBody {
   font-family: MaisonNeue-Book, sans-serif;
+  -webkit-font-smoothing: antialiased;
   text-align: justify;
 }
 
