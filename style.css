@@ -94,7 +94,8 @@
 
 .footerFont {
   text-decoration: none;
-  font-family: Maison Neue Mono;
+  font-family: Maison Neue Mono, sans-serif;
+  -webkit-font-smoothing: antialiased;
   position: fixed;
   left: 0;
   bottom: 0;
